@@ -1,0 +1,4 @@
+from datetime import date
+a=date(2003,8,26)
+b=date(2026,4,28)
+print("No of days Lived :",b-a)
