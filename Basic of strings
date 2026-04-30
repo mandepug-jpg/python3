@@ -1,0 +1,25 @@
+a="vishal is DOING Engg"
+
+b=a.upper()
+print(b)
+
+c=a.lower()
+print(c)
+
+d=a.swapcase()
+print(d)
+
+e=a.title()
+print(e)
+
+f=a.capitalize()
+print(f)
+
+g=a.find("Egfhft")
+print(g)
+
+h=a.count("a")
+print(h)
+
+i=sorted(a,reverse=True)
+print(i)
