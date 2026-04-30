@@ -1,0 +1,7 @@
+a=int(input("Enter Num1 : "))
+b=int(input("Enter Num2 : "))
+while(b!=0): # b not equal to zero
+    rem=a%b  #modulo Division means Answer is remainder
+    a=b
+    b=rem
+print("GCD",a)
