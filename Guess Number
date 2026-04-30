@@ -1,0 +1,27 @@
+p1=input("Enter Player 1 Name")
+p2=input("Enter Player 2 Name")
+s1=10
+s2=10
+d1=random.randint(1,10)
+d2=random.randint(1,10)
+Print("--------Player 1 Guess----------")
+while(True):
+    g1=int(input("Enter Guess"))
+    s1=s1-1
+    if (g1==d1):
+        Break
+Print("--------Player 2 Guess----------")
+while(True):
+    g2=int(input("Enter Guess"))
+    s2=s2-1
+    if (g2==d2):
+        Break
+Print("-------SUMMARY----------")
+print("{}:{}",(p1,s1))
+print("{}:{}",(p2,s2))
+if s1>s2:
+    print("Player 1 is win")
+elif s1<s2:
+    print("Player 2 is win")
+else:
+    Print("TIE")
