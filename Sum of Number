@@ -1,0 +1,7 @@
+a=int(input("Enter Num1 : "))
+sum=0
+while (a!=0): # a not equal to zero enter into loop
+    rem=a%10  #modulo Division means Answer is remainder
+    sum=sum+rem
+    a=a//10
+print("SUM",sum)
